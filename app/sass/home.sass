@@ -1,0 +1,248 @@
+@import "fonts"
+@import "vars"
+
+header
+  position: fixed
+  left: 0
+  top: 0
+  z-index: 3
+  background: #fff
+  width: 100%
+  padding: 12px 0 0
+  font-size: 15px
+
+  .name-company
+    margin: 0 20px 0 0
+
+  .list-social
+    margin: 0 auto
+
+header.fixed
+  padding: 5px 0
+  .logo
+    max-width: 36px
+  .header-top
+    display: none
+
+.logo
+  display: flex
+  align-items: center
+  justify-content: center
+  max-width: 80px
+  width: 100%
+
+.list-social
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+
+  li
+    margin: 0 20px 0 0
+
+    &:last-child
+      margin: 0
+
+    a
+      display: flex
+      align-items: center
+      justify-content: center
+      fill: $accent
+      width: 23px
+      height: 23px
+
+.menu
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+
+  li
+    margin: 0 48px 0 0
+
+    &:last-child
+      margin: 0
+
+    a
+      color: #000000
+
+      &:hover
+        color: $accent
+
+.dropdown-toggle::after
+  margin: 0 0 0 3px
+  width: 8px
+  height: 4px
+  background: url("../img/arrow-bottom.svg") no-repeat center
+    size: 100%
+  border: none
+
+.dropdown.show
+  .dropdown-toggle
+    color: $accent
+    font-weight: bold
+
+.dropdown-menu
+  margin: 19px 0 0
+  border: none
+    radius: 0
+  box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14)
+  background: #fff
+  min-width: 225px
+  padding: 18px 26px
+  font-size: 15px
+
+
+.dropdown-item
+  padding: 0
+  margin: 0 0 12px
+  white-space: normal
+  &:hover
+    color: $accent
+    background: transparent
+  &:last-child
+    margin: 0
+
+
+.form-search
+  position: relative
+  max-width: 180px
+  width: 100%
+
+  input
+    border: none
+    padding: 0 0 0 31px
+    line-height: 22px
+    font-size: 15px
+
+    &::placeholder
+      color: #A7A7A7
+
+  button
+    position: absolute
+    left: 0
+    bottom: 0
+    width: 18px
+    height: 18px
+    background: transparent
+    fill: #A7A7A7
+    display: flex
+    align-items: center
+    justify-content: center
+
+.header-bottom
+  width: 100%
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  justify-content: space-between
+
+.phone
+  position: relative
+  color: $accent
+  font-weight: bold
+
+  .svg-icon
+    position: absolute
+    left: -31px
+    top: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    fill: $accent
+    width: 17px
+    height: 17px
+
+  &:hover
+    color: #A7A7A7
+
+
+.header-top
+  width: 100%
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  margin: 0 0 8px
+  transition: .3s ease
+
+.name-company
+  color: #61C2D0
+  font-size: 14px
+  max-width: 180px
+  width: 100%
+
+.header-box
+  margin: 0 50px 0 0
+
+  &:last-child
+    margin: 0
+
+.address
+  font-weight: bold
+
+.schedule
+  color: #A7A7A7
+
+.mail
+  color: $grey
+
+  &:hover
+    color: $accent
+
+.btn-burger
+  display: none
+  flex-direction: column
+  align-items: center
+  justify-content: space-between
+  border-radius: 50%
+  background: $accent
+  width: 40px
+  height: 40px
+  padding: 12px 10px
+  cursor: pointer
+  span
+    background: #ffffff
+    display: block
+    width: 100%
+    height: 2px
+    border-radius: 3px
+
+//footer
+footer
+  background: #2F3A4F
+  color: #fff
+  padding: 36px 0 61px
+  font-size: 15px
+  .logo
+    margin: 0 auto 27.5px
+    max-width: 104px
+  .name-company
+    color: #fff
+    margin: 0 0 17px
+    font-weight: bold
+    max-width: none
+  .header-box
+    margin: 0 0 15px
+  .btn
+    margin: 0 auto
+
+.footer-menu
+  max-width: 228px
+
+  li
+    margin: 0 0 17px
+    &:last-child
+      margin: 0
+    >a
+      color: #fff
+      &:hover
+        color: $accent
+  .dropdown-toggle
+    &:after
+      filter: brightness(0) invert(1)
+
+
+.footer-wrapper
+  padding: 0 0 0 30px
+  width: 100%
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap

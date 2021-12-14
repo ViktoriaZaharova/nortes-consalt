@@ -1,0 +1,133 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px)
+  .menu li
+    margin: 0 20px 0 0
+
+  .name-company
+    max-width: 158px
+
+  .header-box
+    margin: 0 35px 0 0
+
+    &:last-child
+      margin: 0
+
+  .phone .svg-icon
+    left: -21px
+
+  header
+    font-size: 13.5px
+
+    .btn
+      max-width: 160px
+
+  .list-social
+    li
+      margin: 0 15px 0 0
+
+  .wrapper
+    padding: 83px 0 0
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px)
+  header
+    padding: 9px 0 13px
+    .name-company, .header-box-address
+      display: none
+
+  .btn-burger
+    display: flex
+
+  .header-bottom
+    display: none
+
+  .header-top
+    margin: 0
+
+  header.fixed
+    .header-top
+      display: flex
+
+  .wrapper
+    padding: 104px 0 0
+
+  .footer-wrapper
+    padding: 0
+    margin: 0 0 22px
+
+  .footer-col
+    text-align: center
+    .list-social
+      justify-content: center
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px)
+  header
+    .btn
+      display: none
+    .list-social
+      margin: 0 auto 0 0
+
+  h2
+    line-height: 37px
+
+  .error-page
+    padding: 18px 0 64px
+    text-align: center
+    h1
+      text-align: center
+    .btn
+      margin: 40px auto 0
+
+  footer
+    padding: 21px 0 54px
+    .footer-box
+      display: flex
+      flex-direction: row
+      align-items: center
+      justify-content: space-between
+    .btn
+      margin: 0
+    .logo
+      margin: 0
+      max-width: 101px
+
+  .footer-wrapper
+    margin: 14px 0 22px
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px)
+  header
+    .list-social
+      display: none
+
+
+  .logo
+    max-width: 45px
+
+  .header-box
+    margin: 0 auto
+
+  .wrapper
+    padding: 68px 0 0
+
+  .breadcrumb
+    margin: 18px 0
+    font-size: 12px
+
+  .footer-menu
+    width: 50%
+
+@media only screen and (max-width: 480px)
+  /**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 420px)
+  .wrapper
+    padding: 62px 0 0
