@@ -71,6 +71,7 @@ body
   font-family: $default-font
   font-weight: normal
   background: #fff
+  color: #252525
 
 html, body
   overflow-x: hidden
@@ -124,6 +125,57 @@ label
   display: block
   width: 100%
 
+.checkbox
+  width: 100%
+  display: flex
+  align-items: flex-start
+  color: #999
+  font-weight: 450
+  font-size: 14px
+  font-family: $circular-font
+  cursor: pointer
+
+.inp-check
+  display: none
+
+.checkbox-custom
+  position: relative
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 20px
+  height: 20px
+  min-width: 20px
+  border: 1px solid #2293D7
+    radius: 50%
+  margin: 0 13px 0 0
+  &:before
+    content: ''
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%,-50%)
+    border-radius: 50%
+    width: 12px
+    height: 12px
+
+.inp-check:checked + .checkbox-custom
+  &:before
+    background: $accent
+
+.form
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+  justify-content: space-between
+  label
+    max-width: 239px
+    width: 100%
+    margin: 0 0 31px
+  .checkbox
+    margin: 0 0 37px
+    max-width: none
+
 .btn, button
   outline: none
   font-family: $default-font
@@ -170,6 +222,21 @@ label
     color: #fff
     background: $accent
 
+.btn-white
+  background: #fff
+  color: $accent
+  &:hover
+    background: $grey
+    color: #fff
+
+.btn-border-white
+  border: 1px solid #fff
+  color: #fff
+  &:hover
+    background: $grey
+    color: #fff
+
+
 .svg-icon__wrap
   display: flex
   align-items: center
@@ -185,9 +252,9 @@ h1
 
 h2
   width: 100%
-  font-size: 30px
+  font-size: 35px
   font-weight: bold
-  line-height: 45px
+  line-height: 43px
 
 h3
   width: 100%
@@ -196,6 +263,12 @@ h3
   margin: 0 0 8px
   line-height: 22px
   color: #252525
+
+.bg-accent
+  background: $accent
+  color: #fff
+  h2
+    color: #fff
 
 .color-accent
   color: $accent
@@ -211,8 +284,13 @@ a.color-accent
   font-weight: bold
 
 .box-text
-  line-height: 23px
-  font-size: 16px
+  line-height: 25px
+  font-size: 15px
+  color: #4B4B4B
+  p
+    margin: 0 0 33px
+    &:last-child
+      margin: 0
 
 .svg-icon
   display: inline-block
@@ -229,6 +307,43 @@ a.color-accent
 .slick-slider
   width: 100%
 
+.slider-nav
+  display: flex
+  align-items: center
+  justify-content: flex-end
+  .slick-prev
+    margin: 0 33px 0 0
+
+.slick-arrow
+  cursor: pointer
+  display: flex
+  align-items: center
+  background: #fff
+  border-radius: 50%
+  box-shadow: 0px 8px 60px rgba(217, 234, 239, 0.9)
+  width: 46px
+  height: 46px
+  padding: 13px 15px
+  fill: $accent
+  &:hover
+    background: $accent
+    fill: #fff
+
+.counter-slide
+  display: flex
+  align-items: flex-end
+  margin: 0 19px 0 auto
+  font-size: 14px
+  font-weight: bold
+  line-height: 1
+  color: #252525
+  &__cp
+    font-size: 35px
+    line-height: 25px
+    display: flex
+    align-items: center
+    &:after
+      content: '/'
 
 .wrapper
   padding: 93px 0 0
@@ -245,7 +360,7 @@ a.color-accent
   padding: 0 10px
 
 .breadcrumb
-  margin: 25px 0
+  margin: 25px 0 0
   width: 100%
   background: transparent
   padding: 0
@@ -272,3 +387,23 @@ a.color-accent
 
 .breadcrumb-item+.breadcrumb-item
   padding: 0
+
+.list-check
+  font-size: 15px
+  font-weight: bold
+  color: #4B4B4B
+  li
+    position: relative
+    padding: 0 0 0 44px
+    margin: 0 0 30px
+    &:last-child
+      margin: 0
+    &:before
+      content: ''
+      position: absolute
+      left: 0
+      top: 0
+      width: 20px
+      height: 15px
+      background: url("../img/check.svg") no-repeat center
+        size: 100%

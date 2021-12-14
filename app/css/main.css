@@ -13,6 +13,20 @@
   src: url("../fonts/ProximaNova/ProximaNova-Bold.eot");
   src: url("../fonts/ProximaNova/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Bold.ttf") format("truetype"); }
 
+@font-face {
+  font-family: "CircularStd";
+  font-weight: 450;
+  font-style: normal;
+  src: url("../fonts/CircularStd-Book/CircularStd-Book.eot");
+  src: url("../fonts/CircularStd-Book/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-Book/CircularStd-Book.woff") format("woff"), url("../fonts/CircularStd-Book/CircularStd-Book.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Arial";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/Arial/Arial-BoldMT.eot");
+  src: url("../fonts/Arial/Arial-BoldMT.eot?#iefix") format("embedded-opentype"), url("../fonts/Arial/Arial-BoldMT.woff") format("woff"), url("../fonts/Arial/Arial-BoldMT.ttf") format("truetype"); }
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -55,7 +69,8 @@ body {
   line-height: normal;
   font-family: "proxima", sans-serif;
   font-weight: normal;
-  background: #fff; }
+  background: #fff;
+  color: #252525; }
 
 html, body {
   overflow-x: hidden; }
@@ -117,6 +132,74 @@ label {
   display: block;
   width: 100%; }
 
+.checkbox {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  color: #999;
+  font-weight: 450;
+  font-size: 14px;
+  font-family: "CircularStd", sans-serif;
+  cursor: pointer; }
+
+.inp-check {
+  display: none; }
+
+.checkbox-custom {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  border: 1px solid #2293D7;
+    border-radius: 50%;
+  margin: 0 13px 0 0; }
+  .checkbox-custom:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 12px;
+    height: 12px; }
+
+.inp-check:checked + .checkbox-custom:before {
+  background: #2293D7; }
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .form label {
+    max-width: 239px;
+    width: 100%;
+    margin: 0 0 31px; }
+  .form .checkbox {
+    margin: 0 0 37px;
+    max-width: none; }
+
 .btn, button {
   outline: none;
   font-family: "proxima", sans-serif;
@@ -170,6 +253,20 @@ label {
     color: #fff;
     background: #2293D7; }
 
+.btn-white {
+  background: #fff;
+  color: #2293D7; }
+  .btn-white:hover {
+    background: #A7A7A7;
+    color: #fff; }
+
+.btn-border-white {
+  border: 1px solid #fff;
+  color: #fff; }
+  .btn-border-white:hover {
+    background: #A7A7A7;
+    color: #fff; }
+
 .svg-icon__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -191,9 +288,9 @@ h1 {
 
 h2 {
   width: 100%;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bold;
-  line-height: 45px; }
+  line-height: 43px; }
 
 h3 {
   width: 100%;
@@ -202,6 +299,12 @@ h3 {
   margin: 0 0 8px;
   line-height: 22px;
   color: #252525; }
+
+.bg-accent {
+  background: #2293D7;
+  color: #fff; }
+  .bg-accent h2 {
+    color: #fff; }
 
 .color-accent {
   color: #2293D7; }
@@ -216,8 +319,13 @@ a.color-accent:hover {
   font-weight: bold; }
 
 .box-text {
-  line-height: 23px;
-  font-size: 16px; }
+  line-height: 25px;
+  font-size: 15px;
+  color: #4B4B4B; }
+  .box-text p {
+    margin: 0 0 33px; }
+    .box-text p:last-child {
+      margin: 0; }
 
 .svg-icon {
   display: inline-block;
@@ -233,6 +341,63 @@ a.color-accent:hover {
 .slick-slider {
   width: 100%; }
 
+.slider-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+  .slider-nav .slick-prev {
+    margin: 0 33px 0 0; }
+
+.slick-arrow {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 8px 60px rgba(217, 234, 239, 0.9);
+          box-shadow: 0px 8px 60px rgba(217, 234, 239, 0.9);
+  width: 46px;
+  height: 46px;
+  padding: 13px 15px;
+  fill: #2293D7; }
+  .slick-arrow:hover {
+    background: #2293D7;
+    fill: #fff; }
+
+.counter-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 0 19px 0 auto;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+  color: #252525; }
+  .counter-slide__cp {
+    font-size: 35px;
+    line-height: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .counter-slide__cp:after {
+      content: '/'; }
+
 .wrapper {
   padding: 93px 0 0; }
 
@@ -247,7 +412,7 @@ a.color-accent:hover {
   padding: 0 10px; }
 
 .breadcrumb {
-  margin: 25px 0;
+  margin: 25px 0 0;
   width: 100%;
   background: transparent;
   padding: 0;
@@ -277,3 +442,23 @@ a.color-accent:hover {
 
 .breadcrumb-item + .breadcrumb-item {
   padding: 0; }
+
+.list-check {
+  font-size: 15px;
+  font-weight: bold;
+  color: #4B4B4B; }
+  .list-check li {
+    position: relative;
+    padding: 0 0 0 44px;
+    margin: 0 0 30px; }
+    .list-check li:last-child {
+      margin: 0; }
+    .list-check li:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 20px;
+      height: 15px;
+      background: url("../img/check.svg") no-repeat center;
+        background-size: 100%; }
