@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "proxima";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/ProximaNova/ProximaNova-Regular.eot");
+  src: url("../fonts/ProximaNova/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "proxima";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/ProximaNova/ProximaNova-Bold.eot");
+  src: url("../fonts/ProximaNova/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "CircularStd";
+  font-weight: 450;
+  font-style: normal;
+  src: url("../fonts/CircularStd-Book/CircularStd-Book.eot");
+  src: url("../fonts/CircularStd-Book/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-Book/CircularStd-Book.woff") format("woff"), url("../fonts/CircularStd-Book/CircularStd-Book.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Arial";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/Arial/Arial-BoldMT.eot");
+  src: url("../fonts/Arial/Arial-BoldMT.eot?#iefix") format("embedded-opentype"), url("../fonts/Arial/Arial-BoldMT.woff") format("woff"), url("../fonts/Arial/Arial-BoldMT.ttf") format("truetype"); }
+
+.service-home {
+  padding: 50px 0; }
+  .service-home .box-text {
+    margin: 19px 0 25px; }
+  .service-home .price {
+    margin: 0 0 21px; }
+
+.price {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif; }
+  .price span {
+    font-family: "proxima", sans-serif;
+    font-size: 35px; }
+
+.advantages-service {
+  margin: 0 0 60px; }
+  .advantages-service h2 {
+    margin: 0 0 22px; }
+  .advantages-service .box-text {
+    margin: 0 0 33px; }
+
+.diplomas {
+  position: relative;
+  z-index: 1;
+  padding: 0 0 59px; }
+  .diplomas:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 189px;
+    background: #2293D7;
+    z-index: -1; }
+
+.diplomas-slider {
+  margin: 33px 0 0; }
+
+.diplomas-slider-box {
+  margin: 0 auto;
+  max-width: 180px;
+  width: 100%;
+  height: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  background: #F1F1F1; }
+
+.stages-work {
+  padding: 79px 0; }
+  .stages-work h2 {
+    margin: 0 0 30px; }
+
+.stages-work-box {
+  text-align: center; }
+  .stages-work-box__num {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto 15px;
+    border: 1px solid #2293D7;
+      border-radius: 50%;
+    width: 79px;
+    height: 79px;
+    font-size: 40px;
+    font-weight: bold; }
+  .stages-work-box h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 auto 12px; }
+
+.advantages-service-my-box {
+  -webkit-box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14);
+          box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14);
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 25px 8px 24px 30px;
+  font-weight: bold; }
+  .advantages-service-my-box__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 48px;
+    height: 48px; }
+  .advantages-service-my-box__body {
+    width: calc(100% - 48px);
+    padding: 0 0 0 27px; }
+
+.tariffs {
+  padding: 84px 0; }
+
+.map-section {
+  width: 100%;
+  height: 437px; }
+  .map-section iframe {
+    width: 100%;
+    height: 100%; }
+
+.consultation {
+  padding: 69px 0 66px; }
+
+.consultation-img {
+  max-width: 404px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.consultation-content {
+  width: 100%;
+  max-width: 644px;
+  background: #fff;
+  -webkit-box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14);
+          box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14);
+  padding: 42px 41px 43px 66px;
+  margin: 0 0 0 auto; }
+  .consultation-content .box-text {
+    margin: 0 0 25px;
+    color: #000; }
+
+.callback-section {
+  padding: 70px 0 64px; }
+  .callback-section h2 {
+    margin: 0 0 8px; }
