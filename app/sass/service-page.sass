@@ -2,13 +2,19 @@
 @import "vars"
 
 .service-home
-  padding: 50px 0
+  padding: 55px 0
 
   .box-text
-    margin: 19px 0 25px
+    margin: 19px 0 15px
 
   .price
     margin: 0 0 21px
+  &__img
+    max-width: 340px
+    margin: 0 0 0 auto
+    width: 100%
+    img
+      width: 100%
 
 .price
   font-size: 25px
@@ -23,13 +29,13 @@
 
 
 .advantages-service
-  margin: 0 0 60px
+  margin: 0 0 72px
 
   h2
     margin: 0 0 22px
 
   .box-text
-    margin: 0 0 33px
+    margin: 0 0 40px
 
 //diplomas
 .diplomas
@@ -121,7 +127,7 @@
 
 //tariffs
 .tariffs
-  padding: 84px 0
+  padding: 84px 0 87px
 
 .tariffs-box
   width: 100%
@@ -135,30 +141,33 @@
     color: #fff
     border-radius: 2px
     height: 105px
-    padding: 13px 12px 9px 32px
+    padding: 20px 12px 9px 32px
 
   h3
     margin: 5px 0 0
     font-weight: bold
-    font-size: 25px
+    font-size: 30px
     color: #fff
-
+    line-height: 30px
+    min-height: 60px
+    display: flex
+    align-items: center
   &__body
     width: 100%
-    padding: 19px 25px 34px
+    padding: 22px 25px 34px
     height: calc(100% - 105px)
     display: flex
     flex-direction: column
 
   .btn
     margin: auto auto 0
-
+    max-width: 179px
   .box-text
-    margin: 0 auto 37px
+    margin: 0 auto 27px
     text-align: center
 
   .percent
-    margin: 4px auto 15px
+    margin: 7px auto 21px
     color: $accent
     font-size: 15px
     font-weight: bold
@@ -167,29 +176,27 @@
   display: flex
   align-items: flex-end
   flex-wrap: wrap
+  justify-content: center
   p
-    margin: 0 12px 7px 0
+    margin: 0 10px 10px 0
     font-size: 15px
 
 //command
-.command
-  padding: 0 0 50px
-
 .command-description
   position: relative
-  padding: 0 0 0 40px
+  padding: 0 0 0 32px
 
   &:before
     content: ''
     position: absolute
-    left: 0
+    left: -9px
     top: 0
     width: 2px
     height: 45px
     background: $accent
 
 .command-slider
-  margin: 50px 0 0
+  margin: 32px 0 0
 
   .slick-slide
     padding: 0 10px
@@ -201,8 +208,8 @@
   width: 100%
   box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14)
   background: #fff
-  margin: 0 0 68px
-
+  margin: 0 0 60px
+  min-height: 357px
   &__photo
     width: 100%
     height: 175px
@@ -236,7 +243,7 @@
     width: 100%
     background: $accent
     z-index: -1
-    height: calc(100% - 102px)
+    height: calc(100% - 135px)
 
   &__content
     padding: 107px 0 0
@@ -252,8 +259,8 @@
   background: #fff
   width: 100%
   height: 191px
-  margin: 0 0 18px
-  padding: 34px 25px 24px 32px
+  margin: 0 0 22px
+  padding: 40px 25px 24px 32px
   box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14)
   position: relative
 
@@ -261,7 +268,7 @@
     width: 100%
     display: flex
     align-items: center
-    margin: 0 0 12px
+    margin: 0 0 20px
 
   h3
     margin: 0
@@ -285,12 +292,12 @@
   justify-content: center
   position: absolute
   right: 25px
-  bottom: 24px
+  bottom: 13px
 
 
 //question
 .question
-  padding: 44px 0 70px
+  padding: 25px 0 62px
 
   h2
     margin: 0 0 23px
@@ -310,9 +317,9 @@
     border: none
     margin: 0
     display: flex
-    align-items: center
+    align-items: flex-start
     justify-content: space-between
-    padding: 20px 0 17px
+    padding: 20px 27px 17px 0
     background: transparent
     font-size: 18px
     cursor: pointer
@@ -322,7 +329,9 @@
       padding: 0 60px 0 0
 
   .card-body
-    padding: 8px 0
+    padding: 2px 0
+    .box-text
+      max-width: 980px
 
 
 .accordion-icon
@@ -342,7 +351,7 @@
 
 //.clients
 .clients
-  padding: 0 0 55px
+  padding: 0 0 75px
 
 .clients-slider
   .slick-slide
@@ -357,7 +366,7 @@
   align-items: center
 
 .clients-box
-  margin: 0 0 34px
+  margin: 0 0 11px
   display: flex
   align-items: center
   justify-content: center
@@ -419,6 +428,7 @@
   width: 100%
   box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14)
   padding: 22px 38px 24px
+  min-height: 259px
   .box-text
     color: #4B4B4B
   &__photo
@@ -457,7 +467,7 @@
 
 
 .btn-all-reviews
-  margin: 30px auto 0
+  margin: 27px auto 0
   .btn-icon
     fill: $accent
     width: 10px
@@ -505,12 +515,13 @@
   max-width: 644px
   background: #fff
   box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14)
-  padding: 42px 41px 43px 66px
+  padding: 62px 41px 43px 66px
   margin: 0 0 0 auto
 
   .box-text
-    margin: 0 0 25px
+    margin: 0 0 33px
     color: #000
+    font-size: 16px
   h2
     font-size: 30px
 

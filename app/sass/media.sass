@@ -68,7 +68,7 @@
       justify-content: center
 
   .stages-work-box
-    margin: 0 auto 30px
+    margin: 0 auto 35px
     &__body
       max-width: 280px
       margin: 0 auto
@@ -103,7 +103,7 @@
     margin: 28px 0 0
     .slick-arrow
       position: absolute
-      top: 50%
+      top: 45%
       transform: translate(0,-50%)
     .slick-prev
       left: 0
@@ -128,10 +128,10 @@
     .btn
       margin: 0 auto 13px
     h2
-      margin: 0 auto 11px
+      margin: 0 auto 16px
       max-width: 320px
     .box-text
-      margin: 0 auto 23px
+      margin: 0 auto 26px
 
   .reviews
     padding: 40px 0 46px
@@ -141,12 +141,14 @@
       height: 765px
 
   .reviews-info
-    margin: 0 0 22px
+    margin: 0 0 29px
     align-items: flex-start
 
   .reviews-box
-    margin: 0 0 19px
+    margin: 0 0 16px
     min-height: 259px
+    .list-rating
+      margin: 9px 0 0
 
   .clients-slider-col
     width: 180px
@@ -186,6 +188,9 @@
   .service-box
     margin: 0 0 23px
 
+  .btn-all-reviews
+    margin: 20px auto 0
+
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px)
   header
@@ -195,7 +200,7 @@
       margin: 0 auto 0 0
 
   h2
-    line-height: 37px
+    line-height: 42px
 
   .error-page
     padding: 18px 0 64px
@@ -219,7 +224,7 @@
       max-width: 101px
 
   .footer-wrapper
-    margin: 14px 0 22px
+    margin: 28px 0 22px
 
   .service-home
     padding: 25px 0 35px
@@ -231,9 +236,9 @@
 
   .list-check
     li
-      margin: 0 0 25px
+      margin: 0 0 32.5px
       &:last-child
-        margin: 0 0 25px
+        margin: 0 0 32.5px
 
   .advantages-service
     margin: 0 0 35px
@@ -278,8 +283,13 @@
 
   .advantages-service-my
     h2
-      margin: 0 0 24px
+      margin: 0 0 27px
       max-width: 280px
+
+  .advantages-service-my-box
+    height: 106px
+    p
+      max-width: 190px
 
   .tariffs
     padding: 13px 0 33px
@@ -302,8 +312,9 @@
     h2
       text-align: center
     .box-text
-      margin: 28px auto 23px
+      margin: 21px auto 18px
       text-align: center
+      max-width: 220px
 
   .form
     button
@@ -323,7 +334,7 @@
     align-items: flex-start
     .box-text
       padding: 0
-      margin: 22px 0 0
+      margin: 26px 0 0
 
   .clients-slider
     width: calc(100% + 23px)
@@ -346,23 +357,36 @@
   header
     .list-social
       display: none
-
+    .logo
+      margin: 0 0 0 5px
+    .phone
+      margin: 2px 0 3px
 
   .logo
     max-width: 45px
 
+  .phone
+    .svg-icon
+      left: -25px
+
+  .btn-burger
+    margin: 5px 3px 0 0
+
   .header-box
-    margin: 0 auto
+    font-size: 15px
+    margin: 5px auto 0 18px
 
   .wrapper
     padding: 68px 0 0
 
   .breadcrumb
-    margin: 18px 0 0
+    margin: 15px 0 0
     font-size: 12px
 
   .footer-menu
     width: 50%
+    li
+      max-width: 140px
 
   .service-home
     .price
@@ -370,16 +394,64 @@
     .btn
       display: none
 
+  footer
+    .list-social li
+      margin: 0 24px 0 0
+
   .form
     label
       width: 100%
       max-width: none
-      margin: 0 0 28px
+      margin: 0 0 26px
     .checkbox
-      margin: 0 0 16px
+      margin: 0 0 24px
 
   .checkbox
     font-size: 12px
+
+  .service-home .box-text
+    margin: 27px 0 10px
+
+  .advantages-service h2
+    margin: 0 0 17px
+
+  .tariffs-box
+    max-width: 280px
+    width: 100%
+    margin: 0 auto 11px
+    &__body
+      padding: 20px 25px 34px
+    h3
+      min-height: auto
+      margin: 0
+
+  .service-box
+    padding: 35px 25px 24px 32px
+
+  .links-next
+    right: 14px
+
+  .services-section
+    padding: 55px 0 30px
+
+  .accordion
+    .card-header
+      h3
+        line-height: 27px
+    .card-body
+      .box-text
+        line-height: 24px
+
+  .accordion-icon
+    margin: 7px 17px 0 0
+
+  .clients-box
+    margin: 0 0 -14px
+    &:last-child
+      margin: 0
+
+  .clients
+    padding: 0 0 28px
 
 @media only screen and (max-width: 480px)
   /**/

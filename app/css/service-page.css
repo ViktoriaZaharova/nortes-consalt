@@ -27,11 +27,17 @@
   src: url("../fonts/Arial/Arial-BoldMT.eot?#iefix") format("embedded-opentype"), url("../fonts/Arial/Arial-BoldMT.woff") format("woff"), url("../fonts/Arial/Arial-BoldMT.ttf") format("truetype"); }
 
 .service-home {
-  padding: 50px 0; }
+  padding: 55px 0; }
   .service-home .box-text {
-    margin: 19px 0 25px; }
+    margin: 19px 0 15px; }
   .service-home .price {
     margin: 0 0 21px; }
+  .service-home__img {
+    max-width: 340px;
+    margin: 0 0 0 auto;
+    width: 100%; }
+    .service-home__img img {
+      width: 100%; }
 
 .price {
   font-size: 25px;
@@ -44,11 +50,11 @@
     display: inline-block; }
 
 .advantages-service {
-  margin: 0 0 60px; }
+  margin: 0 0 72px; }
   .advantages-service h2 {
     margin: 0 0 22px; }
   .advantages-service .box-text {
-    margin: 0 0 33px; }
+    margin: 0 0 40px; }
 
 .diplomas {
   position: relative;
@@ -148,7 +154,7 @@
     padding: 0 0 0 27px; }
 
 .tariffs {
-  padding: 84px 0; }
+  padding: 84px 0 87px; }
 
 .tariffs-box {
   width: 100%;
@@ -162,15 +168,23 @@
     color: #fff;
     border-radius: 2px;
     height: 105px;
-    padding: 13px 12px 9px 32px; }
+    padding: 20px 12px 9px 32px; }
   .tariffs-box h3 {
     margin: 5px 0 0;
     font-weight: bold;
-    font-size: 25px;
-    color: #fff; }
+    font-size: 30px;
+    color: #fff;
+    line-height: 30px;
+    min-height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
   .tariffs-box__body {
     width: 100%;
-    padding: 19px 25px 34px;
+    padding: 22px 25px 34px;
     height: calc(100% - 105px);
     display: -webkit-box;
     display: -ms-flexbox;
@@ -180,12 +194,13 @@
         -ms-flex-direction: column;
             flex-direction: column; }
   .tariffs-box .btn {
-    margin: auto auto 0; }
+    margin: auto auto 0;
+    max-width: 179px; }
   .tariffs-box .box-text {
-    margin: 0 auto 37px;
+    margin: 0 auto 27px;
     text-align: center; }
   .tariffs-box .percent {
-    margin: 4px auto 15px;
+    margin: 7px auto 21px;
     color: #2293D7;
     font-size: 15px;
     font-weight: bold; }
@@ -198,28 +213,28 @@
       -ms-flex-align: end;
           align-items: flex-end;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
   .price-wrapper p {
-    margin: 0 12px 7px 0;
+    margin: 0 10px 10px 0;
     font-size: 15px; }
-
-.command {
-  padding: 0 0 50px; }
 
 .command-description {
   position: relative;
-  padding: 0 0 0 40px; }
+  padding: 0 0 0 32px; }
   .command-description:before {
     content: '';
     position: absolute;
-    left: 0;
+    left: -9px;
     top: 0;
     width: 2px;
     height: 45px;
     background: #2293D7; }
 
 .command-slider {
-  margin: 50px 0 0; }
+  margin: 32px 0 0; }
   .command-slider .slick-slide {
     padding: 0 10px; }
   .command-slider .slick-list {
@@ -230,7 +245,8 @@
   -webkit-box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14);
           box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14);
   background: #fff;
-  margin: 0 0 68px; }
+  margin: 0 0 60px;
+  min-height: 357px; }
   .command-slider-card__photo {
     width: 100%;
     height: 175px;
@@ -266,7 +282,7 @@
     width: 100%;
     background: #2293D7;
     z-index: -1;
-    height: calc(100% - 102px); }
+    height: calc(100% - 135px); }
   .services-section__content {
     padding: 107px 0 0; }
     .services-section__content h2, .services-section__content .box-text {
@@ -279,8 +295,8 @@
   background: #fff;
   width: 100%;
   height: 191px;
-  margin: 0 0 18px;
-  padding: 34px 25px 24px 32px;
+  margin: 0 0 22px;
+  padding: 40px 25px 24px 32px;
   -webkit-box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14);
           box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14);
   position: relative; }
@@ -292,7 +308,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 0 0 12px; }
+    margin: 0 0 20px; }
   .service-box h3 {
     margin: 0;
     width: calc(100% - 43px);
@@ -326,10 +342,10 @@
           justify-content: center;
   position: absolute;
   right: 25px;
-  bottom: 24px; }
+  bottom: 13px; }
 
 .question {
-  padding: 44px 0 70px; }
+  padding: 25px 0 62px; }
   .question h2 {
     margin: 0 0 23px; }
 
@@ -349,13 +365,13 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding: 20px 0 17px;
+    padding: 20px 27px 17px 0;
     background: transparent;
     font-size: 18px;
     cursor: pointer; }
@@ -363,7 +379,9 @@
       margin: 0;
       padding: 0 60px 0 0; }
   .accordion .card-body {
-    padding: 8px 0; }
+    padding: 2px 0; }
+    .accordion .card-body .box-text {
+      max-width: 980px; }
 
 .accordion-icon {
   display: -webkit-box;
@@ -386,7 +404,7 @@
           transform: none; }
 
 .clients {
-  padding: 0 0 55px; }
+  padding: 0 0 75px; }
 
 .clients-slider .slick-slide {
   padding: 0 10px; }
@@ -407,7 +425,7 @@
           align-items: center; }
 
 .clients-box {
-  margin: 0 0 34px;
+  margin: 0 0 11px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -487,7 +505,8 @@
   width: 100%;
   -webkit-box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14);
           box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14);
-  padding: 22px 38px 24px; }
+  padding: 22px 38px 24px;
+  min-height: 259px; }
   .reviews-box .box-text {
     color: #4B4B4B; }
   .reviews-box__photo {
@@ -536,7 +555,7 @@
   font-size: 13px; }
 
 .btn-all-reviews {
-  margin: 30px auto 0; }
+  margin: 27px auto 0; }
   .btn-all-reviews .btn-icon {
     fill: #2293D7;
     width: 10px;
@@ -591,11 +610,12 @@
   background: #fff;
   -webkit-box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14);
           box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14);
-  padding: 42px 41px 43px 66px;
+  padding: 62px 41px 43px 66px;
   margin: 0 0 0 auto; }
   .consultation-content .box-text {
-    margin: 0 0 25px;
-    color: #000; }
+    margin: 0 0 33px;
+    color: #000;
+    font-size: 16px; }
   .consultation-content h2 {
     font-size: 30px; }
 
