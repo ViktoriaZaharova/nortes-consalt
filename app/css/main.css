@@ -367,9 +367,12 @@ a.color-accent:hover {
   -webkit-box-shadow: 0px 8px 60px rgba(217, 234, 239, 0.9);
           box-shadow: 0px 8px 60px rgba(217, 234, 239, 0.9);
   width: 46px;
+  min-width: 46px;
   height: 46px;
   padding: 13px 15px;
-  fill: #2293D7; }
+  fill: #2293D7;
+  z-index: 1;
+  opacity: 1; }
   .slick-arrow:hover {
     background: #2293D7;
     fill: #fff; }

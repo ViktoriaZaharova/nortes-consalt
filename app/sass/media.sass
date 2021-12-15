@@ -32,6 +32,9 @@
   .wrapper
     padding: 83px 0 0
 
+  .form label
+    max-width: 48%
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px)
   header
@@ -63,6 +66,125 @@
     text-align: center
     .list-social
       justify-content: center
+
+  .stages-work-box
+    margin: 0 auto 30px
+    &__body
+      max-width: 280px
+      margin: 0 auto
+    h3
+      margin: 0 auto 20px
+
+  .stages-work
+    padding: 55px 0 19px
+
+  .advantages-service-my-box
+    margin: 0 0 11px
+
+  .tariffs
+    padding: 73px 0
+
+  .tariffs-box
+    margin: 0 0 11px
+    height: 392px
+    .box-text
+      margin: 0
+
+  .command
+    padding: 0
+
+  .command-description
+    padding: 0
+    margin: 13px 0 0
+    &:before
+      display: none
+
+  .command-slider
+    margin: 28px 0 0
+    .slick-arrow
+      position: absolute
+      top: 50%
+      transform: translate(0,-50%)
+    .slick-prev
+      left: 0
+    .slick-next
+      right: 0
+
+  .command-slider-card
+    margin: 0 0 58px
+
+  .consultation
+    padding: 39px 0 43px
+
+  .consultation-content
+    padding: 42px 25px 37px
+    h2
+      line-height: 30px
+      font-size: 25px
+
+  .callback-section
+    padding: 51px 0
+    text-align: center
+    .btn
+      margin: 0 auto 13px
+    h2
+      margin: 0 auto 11px
+      max-width: 320px
+    .box-text
+      margin: 0 auto 23px
+
+  .reviews
+    padding: 40px 0 46px
+    h2
+      margin: 0 0 8px
+    &:before
+      height: 765px
+
+  .reviews-info
+    margin: 0 0 22px
+    align-items: flex-start
+
+  .reviews-box
+    margin: 0 0 19px
+    min-height: 259px
+
+  .clients-slider-col
+    width: 180px
+    margin: 0 20px 0 0
+
+  .clients-slider
+    .slick-slide
+      padding: 0
+    .slick-list
+      margin: 0
+
+  .clients-box
+    margin: 0 0 22px
+
+  .clients
+    padding: 0 0 12px
+
+  .slider-nav
+
+    .slick-prev
+      margin: 0 11px 0 0
+
+  .services-section__content
+    padding: 0
+    margin: 0 0 27px
+
+    .box-text
+      max-width: none
+
+  .services-section
+    background: $accent
+    padding: 55px 0 25px
+
+    &:before
+      display: none
+
+  .service-box
+    margin: 0 0 23px
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px)
@@ -99,6 +221,125 @@
   .footer-wrapper
     margin: 14px 0 22px
 
+  .service-home
+    padding: 25px 0 35px
+
+  .service-home__img
+    margin: 0 auto 45px
+    max-width: 246px
+    width: 100%
+
+  .list-check
+    li
+      margin: 0 0 25px
+      &:last-child
+        margin: 0 0 25px
+
+  .advantages-service
+    margin: 0 0 35px
+
+  .diplomas
+    padding: 0 0 67px
+    &:before
+      height: 195px
+    h2
+      margin: 0 0 30px
+      max-width: 320px
+
+  .diplomas-slider
+    position: relative
+    width: calc(100% + 46px)
+    margin: 0 -23px
+    .slick-arrow
+      position: absolute
+      top: 50%
+      transform: translate(0,-50%)
+    .slick-prev
+      left: 23px
+    .slick-next
+      right: 23px
+
+    .slick-slide
+      padding: 0
+    .slick-list
+      margin: 0
+
+  .diplomas-slider-box
+    width: 180px
+    margin: 0 17.5px
+
+  .container
+    padding: 0 23px
+
+  .stages-work
+    h2
+      text-align: center
+      margin: 0 auto 43px
+
+  .advantages-service-my
+    h2
+      margin: 0 0 24px
+      max-width: 280px
+
+  .tariffs
+    padding: 13px 0 33px
+
+  .price-wrapper
+    justify-content: center
+
+  .command-slider-card
+    max-width: 280px
+    margin: 0 auto 58px
+
+  .command-slider
+    .slick-list
+      margin: 0
+    .slick-slide
+      padding: 0
+
+  .consultation-content
+    margin: 41px auto 0
+    h2
+      text-align: center
+    .box-text
+      margin: 28px auto 23px
+      text-align: center
+
+  .form
+    button
+      margin: 0 auto
+
+  .consultation-img
+    max-width: 242px
+
+  .reviews-box
+    padding: 22px 22px 27px
+
+  .btn-all-reviews
+    margin: 18px auto 0
+
+  .reviews-info
+    flex-direction: column
+    align-items: flex-start
+    .box-text
+      padding: 0
+      margin: 22px 0 0
+
+  .clients-slider
+    width: calc(100% + 23px)
+
+  .question
+    padding: 43px 0 20px
+    h2
+      margin: 0 0 21px
+
+  .accordion
+    .card-header
+      padding: 15px 0
+      h3
+        padding: 0 20px 0 0
+    .card-body
+      padding: 0 0 10px
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px)
@@ -122,6 +363,23 @@
 
   .footer-menu
     width: 50%
+
+  .service-home
+    .price
+      margin: 0
+    .btn
+      display: none
+
+  .form
+    label
+      width: 100%
+      max-width: none
+      margin: 0 0 28px
+    .checkbox
+      margin: 0 0 16px
+
+  .checkbox
+    font-size: 12px
 
 @media only screen and (max-width: 480px)
   /**/
