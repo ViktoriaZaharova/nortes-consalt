@@ -199,6 +199,9 @@ label {
   .form .checkbox {
     margin: 0 0 37px;
     max-width: none; }
+  .form .label-100 {
+    width: 100%;
+    max-width: none; }
 
 .btn, button {
   outline: none;
@@ -314,6 +317,12 @@ a.color-accent:hover {
 
 .color-grey {
   color: #A7A7A7; }
+
+.d-inline {
+  display: inline-block; }
+
+.color-inherit {
+  color: inherit; }
 
 .font-bold {
   font-weight: bold; }
