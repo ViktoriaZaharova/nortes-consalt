@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "proxima";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/ProximaNova/ProximaNova-Regular.eot");
+  src: url("../fonts/ProximaNova/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "proxima";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/ProximaNova/ProximaNova-Bold.eot");
+  src: url("../fonts/ProximaNova/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "CircularStd";
+  font-weight: 450;
+  font-style: normal;
+  src: url("../fonts/CircularStd-Book/CircularStd-Book.eot");
+  src: url("../fonts/CircularStd-Book/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-Book/CircularStd-Book.woff") format("woff"), url("../fonts/CircularStd-Book/CircularStd-Book.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Arial";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/Arial/Arial-BoldMT.eot");
+  src: url("../fonts/Arial/Arial-BoldMT.eot?#iefix") format("embedded-opentype"), url("../fonts/Arial/Arial-BoldMT.woff") format("woff"), url("../fonts/Arial/Arial-BoldMT.ttf") format("truetype"); }
+
+.politics-section {
+  padding: 28px 0 76px; }
+  .politics-section .box-text {
+    margin: 0 0 25px; }
+    .politics-section .box-text:last-child {
+      margin: 0; }
+    .politics-section .box-text p {
+      margin: 0; }
+  .politics-section h1 {
+    font-size: 35px;
+    margin: 0 0 17px;
+    line-height: 43px; }
+
+.politics-box {
+  margin: 0 0 30px; }
+  .politics-box:last-child {
+    margin: 0; }
