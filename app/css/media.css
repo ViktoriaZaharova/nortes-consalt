@@ -160,7 +160,27 @@
     .contacts-section .name-company {
       max-width: none; }
   .contacts-box {
-    padding: 0; } }
+    padding: 0; }
+  .documents-box {
+    padding: 25px; }
+    .documents-box__body {
+      padding: 0 0 0 20px; }
+    .documents-box h3 {
+      margin: 0 0 20px; }
+  .documents-my {
+    padding: 77px 0 0;
+    margin: 0 0 38px; }
+    .documents-my h2 {
+      padding: 0;
+      width: 100%;
+      border: none;
+      margin: 0 0 13px; }
+    .documents-my:before {
+      height: calc(100% - 150px); }
+  .documents-my-head {
+    margin-bottom: 48px; }
+  .documents-box {
+    padding: 33px 24px 31px 23px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -240,7 +260,7 @@
     width: 180px;
     margin: 0 17.5px; }
   .container {
-    padding: 0 23px; }
+    padding: 0 23px 0 24px; }
   .stages-work h2 {
     text-align: center;
     margin: 0 auto 43px; }
@@ -302,7 +322,20 @@
     .accordion .card-header h3 {
       padding: 0 20px 0 0; }
   .accordion .card-body {
-    padding: 0 0 10px; } }
+    padding: 0 0 10px; }
+  .news-home {
+    padding: 20px 0 46px; }
+  .pagination-nav {
+    margin: 27px 0; }
+  .news-card {
+    padding: 0 0 18px;
+    margin: 0 0 18px; }
+    .news-card__head {
+      margin: 8px 0 22px; }
+    .news-card__img {
+      margin: 0 0 32px; }
+    .news-card__body {
+      margin: -5px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
@@ -381,7 +414,36 @@
       font-size: 30px;
       line-height: 37px; }
   .politics-box {
-    margin: 0 0 40px; } }
+    margin: 0 0 40px; }
+  .about-home__img {
+    margin: 0 auto 47px;
+    max-width: 248px; }
+  .about-home {
+    padding: 25px 0 65px; }
+    .about-home h1 {
+      margin: 0 0 8px; }
+  .advantages-service-my-v2 {
+    padding: 47px 0 37px; }
+  .documents-box {
+    position: relative; }
+    .documents-box__icon {
+      max-width: 42px;
+      position: absolute;
+      top: 35px;
+      left: 23px; }
+    .documents-box__body {
+      width: 100%;
+      padding: 0; }
+    .documents-box h3 {
+      width: 100%;
+      padding: 7px 0 0 67px;
+      max-width: 300px; }
+  .documents-my {
+    margin: 196px 0 36px; }
+  .all-articles {
+    padding: 27px 0 39px; }
+    .all-articles h2 {
+      margin: 0 0 25px; } }
 
 @media only screen and (max-width: 480px) {
   /**/ }
@@ -389,4 +451,55 @@
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 420px) {
   .wrapper {
-    padding: 62px 0 0; } }
+    padding: 62px 0 0; }
+  .article-home {
+    padding: 19px 0 0; }
+  .article-card__head {
+    margin: 10px 0 12px; }
+  .article-card__img {
+    height: 116px;
+    margin: 0 0 37px; }
+  .article-img {
+    height: 189px;
+    margin: 20px 0 28px; }
+  .article-card ol {
+    margin: 0 0 25px; }
+  .quote-box {
+    margin: 23px 0;
+    padding: 42px 56px;
+    font-size: 16px; }
+    .quote-box:before {
+      top: 29px;
+      left: 15px; }
+    .quote-box:after {
+      right: 15px;
+      bottom: 33px; }
+  .video-box {
+    height: 184px;
+    margin: 0 0 30px; }
+  .btn-play {
+    width: 28px;
+    height: 27px; }
+  .article-image {
+    height: 189px;
+    margin: 20px 0 0; }
+  .all-articles-card-100 .all-articles-card__body {
+    padding: 38px 20px 14px 24px; }
+  .all-articles-card__img {
+    height: 188px; }
+  .all-articles-card {
+    height: auto;
+    margin: 0 0 6px; }
+  .all-articles-card__body {
+    height: calc(100% - 188px);
+    padding: 32px 24px 21px; }
+  .all-articles-card__title {
+    margin: 0 0 14px; }
+  .all-articles-card .links-details {
+    margin: 15px 0 0; }
+  .list-dots {
+    padding: 0 0 0 26px; }
+  .box-subtitle .box-text {
+    margin: 0 0 37px; }
+  .all-articles {
+    padding: 27px 0 20px; } }

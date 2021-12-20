@@ -245,7 +245,7 @@
   -webkit-box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14);
           box-shadow: 2px 2px 25px rgba(86, 129, 181, 0.14);
   background: #fff;
-  margin: 0 0 60px;
+  margin: 0 0 80px;
   min-height: 357px; }
   .command-slider-card__photo {
     width: 100%;
@@ -404,7 +404,7 @@
           transform: none; }
 
 .clients {
-  padding: 0 0 75px; }
+  padding: 0 0 70px; }
 
 .clients-slider .slick-slide {
   padding: 0 10px; }

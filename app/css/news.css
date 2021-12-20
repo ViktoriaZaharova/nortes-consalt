@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "proxima";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/ProximaNova/ProximaNova-Regular.eot");
+  src: url("../fonts/ProximaNova/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "proxima";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/ProximaNova/ProximaNova-Bold.eot");
+  src: url("../fonts/ProximaNova/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "CircularStd";
+  font-weight: 450;
+  font-style: normal;
+  src: url("../fonts/CircularStd-Book/CircularStd-Book.eot");
+  src: url("../fonts/CircularStd-Book/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-Book/CircularStd-Book.woff") format("woff"), url("../fonts/CircularStd-Book/CircularStd-Book.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Arial";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/Arial/Arial-BoldMT.eot");
+  src: url("../fonts/Arial/Arial-BoldMT.eot?#iefix") format("embedded-opentype"), url("../fonts/Arial/Arial-BoldMT.woff") format("woff"), url("../fonts/Arial/Arial-BoldMT.ttf") format("truetype"); }
+
+.news-home {
+  padding: 17px 0 8px; }
+
+.news-card {
+  width: 100%;
+  margin: 0 0 25px;
+  padding: 0 0 20px;
+  border-bottom: 1px solid #D9D9D9; }
+  .news-card:last-child {
+    margin: 0;
+    padding: 0;
+    border: none; }
+  .news-card__title {
+    color: #000;
+    font-size: 30px;
+    font-weight: bold; }
+    .news-card__title:hover {
+      color: #2293D7; }
+  .news-card__head {
+    margin: 5px 0 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    color: #A7A7A7;
+    font-size: 12px; }
+  .news-card__body {
+    margin: 7px 0 12px; }
+  .news-card__img {
+    width: 100%;
+    margin: 0 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .news-card__img img {
+      width: 100%; }
+
+.author-news {
+  color: #2293D7; }
+
+.links-details.color-grey {
+  color: #A7A7A7;
+  font-size: 12px;
+  margin: 0; }
+  .links-details.color-grey .svg-icon {
+    fill: #A7A7A7;
+    width: 29px;
+    height: 12px; }
+  .links-details.color-grey .links-details__icon {
+    margin: 0 0 0 7px; }
+
+.pagination-nav {
+  margin: 46px 0;
+  width: 100%; }
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  font-size: 13px;
+  font-family: "proxima", sans-serif; }
+  .pagination .page-link {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: none;
+    background: transparent;
+    color: #A0A0A0; }
+    .pagination .page-link:hover {
+      background: transparent;
+      color: #2293D7; }
+  .pagination .active .page-link {
+    background: transparent;
+    color: #2293D7;
+    font-weight: 900; }
+  .pagination .page-item {
+    margin: 0 5px 0 0; }
+    .pagination .page-item:last-child {
+      margin: 0; }
+    .pagination .page-item:first-child .page-link, .pagination .page-item:last-child .page-link {
+      padding: 7px;
+      border-radius: 50%;
+      border: 1px solid #2293D7;
+      fill: #2293D7; }
+      .pagination .page-item:first-child .page-link:hover, .pagination .page-item:last-child .page-link:hover {
+        background: #2293D7;
+        fill: #fff; }

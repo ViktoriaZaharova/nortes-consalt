@@ -1,0 +1,98 @@
+@import "fonts"
+@import "vars"
+
+.news-home
+  padding: 17px 0 8px
+
+.news-card
+  width: 100%
+  margin: 0 0 25px
+  padding: 0 0 20px
+  border-bottom: 1px solid #D9D9D9
+  &:last-child
+    margin: 0
+    padding: 0
+    border: none
+  &__title
+    color: #000
+    font-size: 30px
+    font-weight: bold
+    &:hover
+      color: $accent
+  &__head
+    margin: 5px 0 14px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    flex-wrap: wrap
+    width: 100%
+    color: #A7A7A7
+    font-size: 12px
+  &__body
+    margin: 7px 0 12px
+  &__img
+    width: 100%
+    margin: 0 0 20px
+    display: flex
+    align-items: center
+    img
+      width: 100%
+
+.author-news
+  color: $accent
+
+.links-details.color-grey
+  color: $grey
+  font-size: 12px
+  margin: 0
+  .svg-icon
+    fill: $grey
+    width: 29px
+    height: 12px
+  .links-details__icon
+    margin: 0 0 0 7px
+
+.pagination-nav
+  margin: 46px 0
+  width: 100%
+
+.pagination
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 100%
+  font-size: 13px
+  font-family: $default-font
+  .page-link
+    width: 24px
+    height: 24px
+    min-width: 24px
+    padding: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    border: none
+    background: transparent
+    color: #A0A0A0
+    &:hover
+      background: transparent
+      color: $accent
+  .active
+    .page-link
+      background: transparent
+      color: $accent
+      font-weight: 900
+  .page-item
+    margin: 0 5px 0 0
+    &:last-child
+      margin: 0
+    &:first-child, &:last-child
+      .page-link
+        padding: 7px
+        border-radius: 50%
+        border: 1px solid #2293D7
+        fill: $accent
+        &:hover
+          background: $accent
+          fill: #fff
+
