@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "proxima";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/ProximaNova/ProximaNova-Regular.eot");
+  src: url("../fonts/ProximaNova/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "proxima";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/ProximaNova/ProximaNova-Bold.eot");
+  src: url("../fonts/ProximaNova/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "CircularStd";
+  font-weight: 450;
+  font-style: normal;
+  src: url("../fonts/CircularStd-Book/CircularStd-Book.eot");
+  src: url("../fonts/CircularStd-Book/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-Book/CircularStd-Book.woff") format("woff"), url("../fonts/CircularStd-Book/CircularStd-Book.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Arial";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/Arial/Arial-BoldMT.eot");
+  src: url("../fonts/Arial/Arial-BoldMT.eot?#iefix") format("embedded-opentype"), url("../fonts/Arial/Arial-BoldMT.woff") format("woff"), url("../fonts/Arial/Arial-BoldMT.ttf") format("truetype"); }
+
+.clients-home {
+  background: #2293D7;
+  color: #fff;
+  margin: 12px 0 0;
+  padding: 0 0 33px; }
+  .clients-home h1, .clients-home .box-text, .clients-home .breadcrumb, .clients-home .breadcrumb li a, .clients-home .breadcrumb-item.active {
+    color: #fff; }
+  .clients-home .breadcrumb {
+    margin: 16px 0 13px; }
+  .clients-home__img {
+    margin: 0 auto;
+    max-width: 426px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .clients-home__img img {
+      width: 100%; }
+  .clients-home .about-home__content {
+    margin: -23px 0 0; }
+
+.services-corporation {
+  padding: 32px 0 0; }
+
+.services-corporation-box h3 {
+  max-width: none; }

@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "proxima";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/ProximaNova/ProximaNova-Regular.eot");
+  src: url("../fonts/ProximaNova/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "proxima";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/ProximaNova/ProximaNova-Bold.eot");
+  src: url("../fonts/ProximaNova/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "CircularStd";
+  font-weight: 450;
+  font-style: normal;
+  src: url("../fonts/CircularStd-Book/CircularStd-Book.eot");
+  src: url("../fonts/CircularStd-Book/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-Book/CircularStd-Book.woff") format("woff"), url("../fonts/CircularStd-Book/CircularStd-Book.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Arial";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/Arial/Arial-BoldMT.eot");
+  src: url("../fonts/Arial/Arial-BoldMT.eot?#iefix") format("embedded-opentype"), url("../fonts/Arial/Arial-BoldMT.woff") format("woff"), url("../fonts/Arial/Arial-BoldMT.ttf") format("truetype"); }
+
+.vacancy-page-home {
+  padding: 21px 0 111px; }
+  .vacancy-page-home .vacancy-home__head {
+    margin: 0;
+    border: none;
+    padding: 0 0 13px; }
+  .vacancy-page-home h1 {
+    margin: 0 auto 0 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 35px;
+    line-height: 43px; }
+  .vacancy-page-home .payment-value {
+    color: #2293D7;
+    margin: 0 0 22px;
+    font-size: 21px; }
+  .vacancy-page-home .links-prev {
+    margin: 0 0 22px;
+    max-width: 180px; }
+    .vacancy-page-home .links-prev .svg-icon {
+      width: 10px;
+      height: 10px;
+      margin: 0 7px 0 0; }
+  .vacancy-page-home h4 {
+    font-weight: bold;
+    margin: 30px 0 60px;
+    font-size: 21px;
+    color: #333333; }
+  .vacancy-page-home .box-text {
+    margin: 0 0 10px; }
+
+.vacancy-page-home__item {
+  margin: 26px 0 0; }
+  .vacancy-page-home__item h3 {
+    font-size: 21px;
+    margin: 0 0 16px;
+    line-height: 25px; }
+  .vacancy-page-home__item .list-check {
+    color: #4B4B4B;
+    font-weight: normal;
+    font-size: 15px; }
+    .vacancy-page-home__item .list-check li {
+      margin: 0 0 17px;
+      padding: 0 0 0 24px; }
+      .vacancy-page-home__item .list-check li:before {
+        width: 13px;
+        height: 12px;
+        top: 5px; }
