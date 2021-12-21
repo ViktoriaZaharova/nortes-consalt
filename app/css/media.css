@@ -335,7 +335,12 @@
     .news-card__img {
       margin: 0 0 32px; }
     .news-card__body {
-      margin: -5px; } }
+      margin: -5px; }
+  .rating-wrapper {
+    width: 100%;
+    margin: 0 0 4px; }
+  .form-reviews {
+    margin: 0 0 45px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
@@ -443,7 +448,67 @@
   .all-articles {
     padding: 27px 0 39px; }
     .all-articles h2 {
-      margin: 0 0 25px; } }
+      margin: 0 0 25px; }
+  .reviews-home {
+    padding: 18px 0 26px; }
+  .reviews-home-wrapper {
+    margin: 10px 0 28px; }
+  .reviews-home-description {
+    margin: 0 0 28px;
+    max-width: 325px; }
+  .reviews-home-wrapper .list-rating {
+    margin: 0 20px; }
+  .reviews-home-wrapper .total-val-rating {
+    margin: 9px 0 0; }
+  .reviews-card__head {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 0 27px; }
+    .reviews-card__head .reviews-box__photo {
+      margin: 0 19px 0 0;
+      min-width: 64px; }
+    .reviews-card__head .reviews-box__name {
+      width: calc(100% - 64px); }
+  .reviews-card {
+    padding: 33px 0 32px; }
+    .reviews-card .box-text {
+      max-width: none;
+      padding: 0; }
+  .form-reviews {
+    margin: 0 0 45px; }
+    .form-reviews textarea {
+      height: 132px; }
+    .form-reviews label {
+      margin: 0 0 30px; }
+    .form-reviews .label-100 {
+      margin: -11px 0 0; }
+    .form-reviews .checkbox {
+      margin: 25px 0 30px;
+      font-size: 14px; }
+  .reviews-card .reviews-box__name {
+    padding: 0; }
+  .rate-service {
+    margin: 18px 0 27px; }
+  .btn-group {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .form-reviews .label-file {
+    margin: 0 0 23px; }
+  .btn-group .btn:not(:first-child) {
+    margin: 24px auto 0; }
+  .result-file p {
+    display: none; }
+  .result-file-item {
+    margin: 0; }
+  .result-file {
+    margin: 0 0 14px; } }
 
 @media only screen and (max-width: 480px) {
   /**/ }

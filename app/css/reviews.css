@@ -1,0 +1,241 @@
+@font-face {
+  font-family: "proxima";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/ProximaNova/ProximaNova-Regular.eot");
+  src: url("../fonts/ProximaNova/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "proxima";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/ProximaNova/ProximaNova-Bold.eot");
+  src: url("../fonts/ProximaNova/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "CircularStd";
+  font-weight: 450;
+  font-style: normal;
+  src: url("../fonts/CircularStd-Book/CircularStd-Book.eot");
+  src: url("../fonts/CircularStd-Book/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-Book/CircularStd-Book.woff") format("woff"), url("../fonts/CircularStd-Book/CircularStd-Book.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Arial";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/Arial/Arial-BoldMT.eot");
+  src: url("../fonts/Arial/Arial-BoldMT.eot?#iefix") format("embedded-opentype"), url("../fonts/Arial/Arial-BoldMT.woff") format("woff"), url("../fonts/Arial/Arial-BoldMT.ttf") format("truetype"); }
+
+.reviews-home {
+  padding: 19px 0 0; }
+  .reviews-home h1 {
+    margin: 0;
+    font-size: 35px;
+    line-height: 43px; }
+
+.reviews-home-description {
+  margin: 0 0 27px; }
+
+.reviews-home-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 0 17px; }
+  .reviews-home-wrapper .total-val-rating {
+    margin: 0;
+    color: #A7A7A7;
+    font-weight: normal; }
+  .reviews-home-wrapper .list-rating {
+    margin: 0 22px; }
+  .reviews-home-wrapper h4 {
+    color: #A7A7A7;
+    font-weight: bold; }
+  .reviews-home-wrapper .btn {
+    max-width: 180px;
+    height: 42px; }
+
+.reviews-home-wrapper.open {
+  margin: 10px 0 17px; }
+
+.reviews-card {
+  width: 100%;
+  border-top: 1px solid #D9D9D9;
+  padding: 20px 0 27px; }
+  .reviews-card .box-text {
+    padding: 12px 0 0 7px; }
+  .reviews-card .reviews-box__name {
+    width: 100%;
+    padding: 14px 0 0; }
+  .reviews-card .list-rating li {
+    width: 16px;
+    height: 16px;
+    margin: 0 7px 0 0; }
+
+.reviews-card__head {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+  .reviews-card__head .reviews-box__photo {
+    margin: 0; }
+  .reviews-card__head .position {
+    margin: 5px 0 7px; }
+
+.rating-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto 0 0; }
+
+.btn-group {
+  width: 100%; }
+  .btn-group .btn-group:not(:last-child) > .btn, .btn-group .btn:not(:last-child):not(.dropdown-toggle) {
+    border-radius: 20px; }
+  .btn-group .btn-group:not(:first-child), .btn-group .btn:not(:first-child) {
+    margin-left: 31px; }
+  .btn-group .btn:not(:first-child) {
+    border-radius: 20px; }
+
+.btn-hidden-reviews {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 180px; }
+  .btn-hidden-reviews .btn-icon {
+    margin: 0 0 0 10px;
+    fill: #2293D7;
+    width: 10px;
+    height: 5.5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .btn-hidden-reviews:hover .btn-icon {
+    fill: #fff; }
+
+.form-reviews {
+  margin: 7px 0 53px;
+  display: none; }
+  .form-reviews label {
+    max-width: none;
+    margin: 0 0 32px; }
+  .form-reviews .label-100 {
+    margin: 0 0 18px; }
+  .form-reviews .label-file {
+    margin: 0 0 29px;
+    max-width: 180px; }
+  .form-reviews textarea {
+    height: 149px; }
+  .form-reviews .checkbox {
+    margin: 0 0 25px; }
+
+.captcha {
+  width: 100%;
+  max-width: 279px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .captcha img {
+    width: 100%; }
+
+.rate-service {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 23px 0 27px;
+  color: #373737;
+  font-weight: bold;
+  font-size: 15px; }
+  .rate-service .list-rating {
+    margin: 0 0 0 43px; }
+    .rate-service .list-rating li {
+      margin: 0 10px 0 0;
+      width: 24px;
+      height: 24px; }
+      .rate-service .list-rating li:last-child {
+        margin: 0; }
+
+.label-file {
+  width: 100%;
+  position: relative;
+  max-width: 180px;
+  margin: 0 0 29px; }
+
+.inp-file {
+  display: none; }
+
+.delete-file {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #BF4160;
+  font-size: 15px; }
+  .delete-file__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    fill: #BF4160;
+    width: 11px;
+    height: 11px;
+    margin: 0 0 0 5px; }
+  .delete-file:hover {
+    color: #2293D7; }
+    .delete-file:hover .delete-file__icon {
+      fill: #2293D7; }
+
+.result-file {
+  font-size: 15px;
+  width: 100%;
+  margin: 0 0 25px; }
+  .result-file p {
+    color: #4B4B4B; }
+
+.result-file-item {
+  margin: 10px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #A7A7A7; }
+  .result-file-item .delete-file {
+    margin: 0 0 0 15px; }
