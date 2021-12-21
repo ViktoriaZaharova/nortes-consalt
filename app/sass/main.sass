@@ -149,12 +149,13 @@ label
   border: 1px solid #2293D7
     radius: 50%
   margin: 0 13px 0 0
+
   &:before
     content: ''
     position: absolute
     left: 50%
     top: 50%
-    transform: translate(-50%,-50%)
+    transform: translate(-50%, -50%)
     border-radius: 50%
     width: 12px
     height: 12px
@@ -169,13 +170,16 @@ label
   flex-wrap: wrap
   justify-content: space-between
   width: 100%
+
   label
     max-width: 239px
     width: 100%
     margin: 0 0 31px
+
   .checkbox
     margin: 0 0 37px
     max-width: none
+
   .label-100
     width: 100%
     max-width: none
@@ -222,6 +226,7 @@ label
 .btn-border
   border: 1px solid #2293D7
   color: $accent
+
   &:hover
     color: #fff
     background: $accent
@@ -229,6 +234,7 @@ label
 .btn-white
   background: #fff
   color: $accent
+
   &:hover
     background: $grey
     color: #fff
@@ -236,6 +242,7 @@ label
 .btn-border-white
   border: 1px solid #fff
   color: #fff
+
   &:hover
     background: $grey
     color: #fff
@@ -274,9 +281,23 @@ h3
 .mb-30
   margin-bottom: 30px
 
+.btn-group
+  width: 100%
+
+  .btn-group:not(:last-child) > .btn, .btn:not(:last-child):not(.dropdown-toggle)
+    border-radius: 20px
+
+  .btn-group:not(:first-child), .btn:not(:first-child)
+    margin-left: 31px
+
+  .btn:not(:first-child)
+    border-radius: 20px
+
+
 .bg-accent
   background: $accent
   color: #fff
+
   h2
     color: #fff
 
@@ -303,8 +324,10 @@ a.color-accent
   line-height: 25px
   font-size: 15px
   color: #4B4B4B
+
   p
     margin: 0 0 22px
+
     &:last-child
       margin: 0
 
@@ -327,6 +350,7 @@ a.color-accent
   display: flex
   align-items: center
   justify-content: flex-end
+
   .slick-prev
     margin: 0 33px 0 0
 
@@ -344,6 +368,7 @@ a.color-accent
   fill: $accent
   z-index: 1
   opacity: 1
+
   &:hover
     background: $accent
     fill: #fff
@@ -356,11 +381,13 @@ a.color-accent
   font-weight: bold
   line-height: 1
   color: #252525
+
   &__cp
     font-size: 35px
     line-height: 25px
     display: flex
     align-items: center
+
     &:after
       content: '/'
 
@@ -378,6 +405,20 @@ a.color-accent
 .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto
   padding: 0 10px
 
+.select-my
+  width: 100%
+  border: 1px solid #ECECEC
+    radius: 2px
+  background: url("../img/arrow-bottom.svg") no-repeat calc(100% - 17px) center
+    size: 13px
+  padding: 0 29px
+  font-size: 14px
+  color: #4B4B4B
+  height: 43px
+  cursor: pointer
+
+  &::placeholder
+    color: #4B4B4B
 
 
 .breadcrumb
@@ -388,12 +429,15 @@ a.color-accent
   border-radius: 0
   color: #A7A7A7
   font-size: 12px
+
   a
     display: flex
     align-items: center
     color: $grey
+
     &:hover
       color: $accent
+
     &:after
       content: '→'
       font-weight: bold
@@ -406,19 +450,22 @@ a.color-accent
   &:after, &:before
     display: none
 
-.breadcrumb-item+.breadcrumb-item
+.breadcrumb-item + .breadcrumb-item
   padding: 0
 
 .list-check
   font-size: 15px
   font-weight: bold
   color: #4B4B4B
+
   li
     position: relative
     padding: 0 0 0 44px
     margin: 0 0 30px
+
     &:last-child
       margin: 0
+
     &:before
       content: ''
       position: absolute
@@ -428,3 +475,63 @@ a.color-accent
       height: 15px
       background: url("../img/check.svg") no-repeat center
         size: 100%
+
+//modal
+.modal-dialog
+  max-width: 622px
+
+.modal-content
+  padding: 42px 35px 43px
+  border: none
+    radius: 0
+
+.modal-body
+  padding: 0
+  .box-text
+    text-align: center
+    color: #000
+    width: 100%
+    font-size: 16px
+    line-height: 23px
+  .form
+    margin: 23px 0 0
+    .checkbox
+      justify-content: center
+    button
+      margin: 0 auto
+  .btn
+    margin: 0 auto
+
+.modal-header
+  padding: 0
+  border: none
+  .close
+    position: absolute
+    right: -41px
+    top: 0
+    width: 21px
+    height: 22px
+    fill: #fff
+    opacity: 1
+    z-index: 1
+    display: flex
+    align-items: center
+    justify-content: center
+    cursor: pointer
+    padding: 0
+    margin: 0
+
+
+.modal-title
+  font-size: 30px
+  line-height: 36px
+  font-weight: bold
+  text-align: center
+  color: #000
+  width: 100%
+  max-width: 450px
+  margin: 0 auto
+
+#thanksModal
+  .btn
+    margin: 40px auto 0

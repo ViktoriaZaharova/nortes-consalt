@@ -101,15 +101,6 @@
       flex-wrap: wrap;
   margin: 0 auto 0 0; }
 
-.btn-group {
-  width: 100%; }
-  .btn-group .btn-group:not(:last-child) > .btn, .btn-group .btn:not(:last-child):not(.dropdown-toggle) {
-    border-radius: 20px; }
-  .btn-group .btn-group:not(:first-child), .btn-group .btn:not(:first-child) {
-    margin-left: 31px; }
-  .btn-group .btn:not(:first-child) {
-    border-radius: 20px; }
-
 .btn-hidden-reviews {
   -webkit-box-pack: center;
       -ms-flex-pack: center;

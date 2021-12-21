@@ -189,7 +189,11 @@
   .vacancy-box .box-text {
     margin: 11px 0; }
   .vacancy-home {
-    padding: 17px 0 0; } }
+    padding: 17px 0 0; }
+  .calculate {
+    padding: 74px 0 51px; }
+  .calculate-img {
+    margin: 20px auto 0; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -377,7 +381,21 @@
   .vacancy-home__head {
     padding: 0 0 32px; }
     .vacancy-home__head .mail {
-      margin: 4px 0 0; } }
+      margin: 4px 0 0; }
+  .calculate-wrapper {
+    padding: 41px 30px 39px 23px; }
+    .calculate-wrapper h3 {
+      font-size: 25px;
+      line-height: 30px;
+      margin: 0 0 15px; }
+  .modal-header .close {
+    right: 10px;
+    top: 10px;
+    fill: #2293D7; }
+  .modal-title {
+    font-size: 24px;
+    line-height: normal;
+    margin: 0 auto 10px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
@@ -574,7 +592,41 @@
   .services-corporation-box h3 {
     max-width: 208px; }
   .services-corporation {
-    padding: 39px 0 0; } }
+    padding: 39px 0 0; }
+  .main-home {
+    padding: 70px 0 87px; }
+    .main-home .btn {
+      margin: 30px 0 0; }
+    .main-home h1 {
+      margin: 0 0 25px;
+      font-size: 30px;
+      line-height: 37px; }
+  .calculate-wrapper .btn {
+    margin: 0 auto 15px; }
+    .calculate-wrapper .btn:last-child {
+      margin: 0 auto; }
+  .calculate-val {
+    margin: 8px 0 13px; }
+  .filter__slider {
+    margin: 51px 0 0;
+    width: 100%; }
+  .form-group-num {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 0 26px; }
+  .form-calculate label {
+    margin: 0 0 16px; }
+  .form-calculate .checkbox {
+    margin: 0 0 13px; }
+  .form-calculate .checkbox-custom {
+    margin: 0 0 0 13px; }
+  .case-slider-box {
+    padding: 21px 27px 30px;
+    min-height: auto; }
+  .case-slider {
+    margin: 15px 0 0; }
+  .case {
+    padding: 49px 0 57px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 420px) {
