@@ -780,7 +780,7 @@
                     culpa...</p>
                 </div>
 
-                <a href="#" class="links-details">
+                <a href="#" class="links-details" data-toggle="modal" data-target="#caseModal">
                   <span class="links-details-text">Подробнее</span>
                   <span class="links-details-icon svg-icon__wrap"><svg class="svg-icon"><use
                       xlink:href="img/sprite.svg#arrow-bottom"></use></svg></span>
@@ -1325,6 +1325,36 @@
       </div>
       <div class="modal-body">
         <a href="#" class="btn btn-accent" data-dismiss="modal" aria-label="Close">Закрыть</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="caseModal" tabindex="-1" aria-labelledby="caseModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+<!--        <h5 class="modal-title">Нужна консультация специалиста?</h5>-->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <svg class="svg-icon">
+            <use xlink:href="img/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="case-slider-box">
+          <div class="case-slider-box__logo"><img src="img/clients2.png" alt=""></div>
+          <h3 class="case-name">Название проекта</h3>
+          <div class="case-name-company">Название компании</div>
+          <div class="box-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolor eligendi enim, facere inventore laudantium nemo nisi perspiciatis placeat quia, quo reiciendis voluptate voluptates. Aut doloribus impedit itaque laboriosam quo.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
